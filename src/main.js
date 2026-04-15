@@ -1,4 +1,4 @@
-// import "./style.css";
+import "./style.css";
 //TODO: we need to render this. currently it is not connected to any styles or our html whatsoever. maybe put something inside of childDivs?
 //grab #app and append parent div onto it
 let parentDiv = document.createElement("div");
