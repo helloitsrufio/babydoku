@@ -17,6 +17,10 @@ function generateGameboard() {
       row.push(Math.floor(Math.random() * size) + 1);
       // if (gameboard[row] !== gameboard[row][column]) {
       //   gameboard[row][column] = Math.random(min, max);
+      //TODO: must do many for loops to do conditions for num generations. we are looking to generate unique nums for each col and row, and there will be for loop(s) for checking whether the num is in the column, checking whether the num is within the row, and checking whether the num is within the box
+      //need to make helper functions so as to not get too many nested loops in the same place.
+      // need to go in this order apparently: row -> col -> box. check that val doesn't exist
+      //val checks can be a helper function reused inside row -> col -> box
     }
     gameboard.push(row);
   }
