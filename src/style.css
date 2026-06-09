@@ -31,3 +31,9 @@ body {
   display: grid;
   place-items: center;
 }
+
+.cell-grid {
+  align-content: center;
+  text-align: center;
+  border: 1px #777 solid;
+}
