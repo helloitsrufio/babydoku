@@ -31,3 +31,8 @@ body {
   display: grid;
   place-items: center;
 }
+
+.title {
+  display: grid;
+  place-items: center;
+}
