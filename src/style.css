@@ -27,11 +27,6 @@ body {
   font-weight: bold;
 }
 
-#app {
-  display: grid;
-  place-items: center;
-}
-
 .title {
   display: grid;
   place-items: center;
