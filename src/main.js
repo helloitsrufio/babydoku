@@ -9,6 +9,13 @@ let gameboard = [];
 
 let size = 4;
 
+//Add reset scaffolding
+let resetButton = document.querySelector("#resetButton");
+resetButton.addEventListener("click", (event) => {
+  console.log(event);
+});
+
+//hola
 //generate nums for gameboard
 function generateGameboard() {
   for (let row = 0; row < size; row++) {

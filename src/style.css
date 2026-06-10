@@ -37,3 +37,14 @@ body {
   text-align: center;
   border: 1px #777 solid;
 }
+
+#resetButton {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+#resetButton:hover {
+  background-color: orange;
+  border-radius: 0.3rem;
+}
