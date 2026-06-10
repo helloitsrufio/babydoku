@@ -38,6 +38,11 @@ body {
   border: 1px #777 solid;
 }
 
+.cell-grid-error {
+  background-color: #980202;
+  color: white;
+}
+
 #resetButton {
   margin-top: 1rem;
   padding: 0.5rem;
